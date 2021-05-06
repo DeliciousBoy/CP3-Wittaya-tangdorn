@@ -1,12 +1,12 @@
 #ตัวแปรของคะแนนที่ได้แต่ละวิชา
-FDT_Eng = "47.25"
-GN_bus = "68.00"
-ITCS = "93.00"
-CP = "82.03"
+FDT_Eng = 98.00
+GN_bus = 42.30
+ITCS = 73.47
+CP = 56.72
 #รวมคะแนนทั้งหมดที่ได้
 score = print("---Your Score---","\n"
-              +"Foundation English:"+FDT_Eng,"\n"
-              +"General Business:"+GN_bus,"\n"
-              +"Introduction to Computer Systems:"+ITCS,"\n"
-              +"Computer Programming:"+CP)
+              +"Foundation English:"+str(FDT_Eng),"\n"
+              +"General Business:"+str(GN_bus),"\n"
+              +"Introduction to Computer Systems:"+str(ITCS),"\n"
+              +"Computer Programming:"+str(CP))
 print(score)
