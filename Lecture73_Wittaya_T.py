@@ -7,7 +7,7 @@ def bill():
     for number in range(len(menulist)):
         print(menulist[number][0], menulist[number][1])
         total += int(menulist[number][1])
-    print(total)
+    print("total",total,"$")
 
 while True:
     menuname = input("please enter Menu:")
