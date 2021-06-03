@@ -18,7 +18,7 @@ while True:
         menulist.append(menuname)
         pricelist.append(menuprice)
 
-bill()
+
 
 bill()
 
