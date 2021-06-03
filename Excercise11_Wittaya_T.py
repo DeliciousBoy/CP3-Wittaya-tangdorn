@@ -6,5 +6,5 @@
 """
 userInput = int(input("number pyramid generator : "))
 for i in range(userInput):
-    print(" "*(userInput-i)+"*" * (i*2+1))
+    print(" "*(userInput-i)+"*"*(i*2+1))
 
