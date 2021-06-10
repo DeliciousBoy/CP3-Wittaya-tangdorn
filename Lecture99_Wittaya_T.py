@@ -4,7 +4,7 @@ import math
 def leftclick(event):
     height = float(textbox_height.get())
     weight = float(textbox_weight.get())
-    result = (math.pow(height/100,2)/weight)
+    result = (weight/math.pow(height/100,2))
     if result > 30:
         label_result.configure(text="Fatty")
     elif result >= 25:
