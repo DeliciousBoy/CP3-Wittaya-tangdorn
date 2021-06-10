@@ -8,12 +8,13 @@ def leftclick(event):
     if result > 30:
         label_result.configure(text="Fatty")
     elif result >= 25:
+        label_result.configure(text="Plump")
+    elif result >= 23:
         label_result.configure(text="Chubby")
-    elif result >= 19:
+    elif result >= 18.6:
         label_result.configure(text="Normal")
-    elif result < 18:
+    elif result < 18.5:
         label_result.configure(text="Skinny")
-
 
 main_window = Tk()
 main_window.title("Calculate your BMI")
